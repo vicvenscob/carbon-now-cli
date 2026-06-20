@@ -1,0 +1,11 @@
+[package]
+name = "carbon-now-cli"
+version = "0.1.0"
+description = "beautiful images of your code from right inside your terminal"
+homepage = "https://github.com/mixn/carbon-now-cli"
+license = "MIT"
+url = "https://github.com/vicvenscob/carbon-now-cli/archive/refs/heads/master.tar.gz"
+depends = []
+post_install = "npm install && npm run build && npm link"
+
+[package.files]
