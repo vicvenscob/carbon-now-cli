@@ -6,6 +6,6 @@ homepage = "https://github.com/mixn/carbon-now-cli"
 license = "MIT"
 url = "https://github.com/vicvenscob/carbon-now-cli/archive/refs/heads/master.tar.gz"
 depends = []
-post_install = "npm install --ignore-scripts && npm run build && npm link"
+post_install = "npm install --ignore-scripts && npx tsc && npm link"
 
 [package.files]
